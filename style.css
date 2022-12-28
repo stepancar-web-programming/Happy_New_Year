@@ -482,7 +482,7 @@ strong {
   }
 }
 
-#santa_container {
+.santa_container {
   position: absolute;
   margin-right: -35%;
 }
@@ -502,7 +502,7 @@ strong {
   margin-left: 0%;
 }
 
-#santa_greeting {
+.santa_greeting {
   position: absolute;
   top: 0;
   left: 0;
@@ -517,7 +517,7 @@ strong {
   background-position: 0 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 
-#santa_message {
+.santa_message {
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch; /* Accelerates Overflow Scrolling on IOS */
   padding: 15px;
@@ -533,7 +533,7 @@ strong {
   background: ghostwhite;
 }
 
-#santa_message p {
+.santa_message p {
   font-family: "Linden Hill", serif;
   font-size: 110%;
   color: #587a55;
