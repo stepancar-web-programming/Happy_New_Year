@@ -165,7 +165,7 @@ img {
   background: white;
 }
 
-.HappyNewYearCard {
+.happy_new_year_card {
   background: darkgreen;
   color: #111;
   width: 30%;
@@ -296,23 +296,23 @@ strong {
   z-index: 99;
 }
 
-#nums-1 {
+#nums_1 {
   padding: 100px;
 }
 
-.garland-1 {
+.garland_1 {
   background-position: 0 0;
 }
 
-.garland-2 {
+.garland_2 {
   background-position: 0 -36px;
 }
 
-.garland-3 {
+.garland_3 {
   background-position: 0 -72px;
 }
 
-.garland-4 {
+.garland_4 {
   background-position: 0 -108px;
 }
 
@@ -325,36 +325,92 @@ strong {
 }
 
 #mouth {
-  animation: HoHoHoMouth 6s infinite 6s;
+  animation: hohoho_mouth 6s infinite 6s;
   opacity: 0;
 }
 
-#hohoho1 {
-  animation: HoHoHoText1 6s infinite 6s;
+#hohoho_1 {
+  animation: hohoho_text_1 6s infinite 6s;
   fill: darkblue;
   font-size: 20px;
   font-weight: 700;
   opacity: 0;
 }
 
-#hohoho2 {
-  animation: HoHoHoText2 6s infinite 6s;
-  animation: HoHoHotext2 6s infinite 6s;
+#hohoho_2 {
+  animation: hohoho_text_2 6s infinite 6s;
+  fill: red;
   font-size: 25px;
   font-weight: 700;
   opacity: 0;
-  fill: red;
 }
 
-#hohoho3 {
-  animation: HoHoHoText3 6s infinite 6s;
+#hohoho_3 {
+  animation: hohoho_text_3 6s infinite 6s;
   font-size: 35px;
   font-weight: 700;
   opacity: 0;
   fill: yellow;
 }
+@-webkit-keyframes hohoho_text_1 {
+  0% {
+    opacity:0;
+  }
+  30% {
+    opacity:1;
+  }
+  40% {
+    opacity:0;
+  }
+}
+@-webkit-keyframes hohoho_text_2 {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  60% {
+    opacity:0;
+  }
+}
+@-webkit-keyframes hohoho_text_3 {
+  0% {
+    opacity:0;
+  }
+  70% {
+    opacity:1;
+  }
+  80% {
+    opacity:0;
+  }
+}
 
-@keyframes HoHoHoText1 {
+@-webkit-keyframes hohoho_mouth {
+  0% {
+    opacity:0;
+  }
+  30% {
+    opacity:1;
+  }
+  40% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  60% {
+    opacity:0;
+  }
+  70% {
+    opacity:1;
+  }
+  80% {
+    opacity:0;
+  }
+}
+
+@keyframes hohoho_text_1 {
   0% {
     opacity: 0;
   }
@@ -368,7 +424,7 @@ strong {
   }
 }
 
-@keyframes HoHoHoText2 {
+@keyframes hohoho_text_2 {
   0% {
     opacity: 0;
   }
@@ -382,7 +438,7 @@ strong {
   }
 }
 
-@keyframes HoHoHoText3 {
+@keyframes hohoho_text_3 {
   0% {
     opacity: 0;
   }
@@ -396,79 +452,7 @@ strong {
   }
 }
 
-@keyframes HoHoHoMouth {
-  0% {
-    opacity: 0;
-  }
-
-  30% {
-    opacity: 1;
-  }
-
-  40% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  60% {
-    opacity: 0;
-  }
-
-  70% {
-    opacity: 1;
-  }
-
-  80% {
-    opacity: 0;
-  }
-}
-
-@keyframes HoHoHoText1 {
-  0% {
-    opacity: 0;
-  }
-
-  30% {
-    opacity: 1;
-  }
-
-  40% {
-    opacity: 0;
-  }
-}
-
-@keyframes HoHoHoText2 {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  60% {
-    opacity: 0;
-  }
-}
-
-@keyframes HoHoHoText3 {
-  0% {
-    opacity: 0;
-  }
-
-  70% {
-    opacity: 1;
-  }
-
-  80% {
-    opacity: 0;
-  }
-}
-
-@keyframes HoHoHoMouth {
+@keyframes hohoho_mouth {
   0% {
     opacity: 0;
   }
@@ -498,12 +482,12 @@ strong {
   }
 }
 
-#Santa_Container {
+#santa_container {
   position: absolute;
   margin-right: -35%;
 }
 
-#Santa_Slide_Panel {
+#santa_slide_panel {
   position: absolute;
   width: 80%;
   height: 100%;
@@ -514,11 +498,11 @@ strong {
   cursor: pointer;
 }
 
-#Santa_Slide_Panel:hover {
+#santa_slide_panel:hover {
   margin-left: 0%;
 }
 
-#Santa_Greeting {
+#santa_greeting {
   position: absolute;
   top: 0;
   left: 0;
@@ -533,7 +517,7 @@ strong {
   background-position: 0 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 
-#Santa_Message {
+#santa_message {
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch; /* Accelerates Overflow Scrolling on IOS */
   padding: 15px;
@@ -549,7 +533,7 @@ strong {
   background: ghostwhite;
 }
 
-#Santa_Message p {
+#santa_message p {
   font-family: "Linden Hill", serif;
   font-size: 110%;
   color: #587a55;
@@ -557,29 +541,29 @@ strong {
 
 /* ANIMATIONS */
 
-.UpDown_1 {
+.up_down_1 {
   animation: bottom_animation 6s infinite;
   animation-delay: 1s;
 }
 
-.eyesandbrow {
+.eyes_and_brow {
   animation: bottom_animation 6s infinite;
   animation-delay: 2s;
 }
 
-.shizzle-animated {
+.shizzle_animated {
   visibility: visible !important;
   animation-fill-mode: both;
   animation-duration: 1s;
   backface-visibility: visible !important;
 }
 
-.Santa_Climbing_Chimney {
-  animation-name: Santa_Climbing_Chimney;
+.santa_climbing_chimney {
+  animation-name: santa_climbing_chimney;
   animation-duration: 3s;
 }
 
-@keyframes Santa_Climbing_Chimney {
+@keyframes santa_climbing_chimney {
   0% {
     transform: translateY(200%);
   }
@@ -599,7 +583,7 @@ strong {
   }
 }
 
-@keyframes Santa_Climbing_Chimney {
+@keyframes santa_climbing_chimney {
   0% {
     transform: translateY(200%);
   }
@@ -619,13 +603,13 @@ strong {
   }
 }
 
-.slideScaleUpIn {
+.slide_scale_up_in {
   animation-delay: 3s;
   animation-duration: 3s;
-  animation-name: slideScaleUpIn;
+  animation-name: slide_scale_up_in;
 }
 
-@keyframes slideScaleUpIn {
+@keyframes slide_scale_up_in {
   0% {
     opacity: 0;
     transform: translateY(-2000px) scale(0.1);
@@ -637,7 +621,7 @@ strong {
   }
 }
 
-@keyframes slideScaleUpIn {
+@keyframes slide_scale_up_in{
   0% {
     opacity: 0;
     transform: translateY(-2000px) scale(0.1);
@@ -694,15 +678,15 @@ strong {
 }
 
 /* SVG DEFAULT STYLING FROM ILLUSTRATOR */
-.santa-0 {
+.santa_0 {
   fill: #c10e0e;
 }
 
-.santa-1 {
+.santa_1 {
   fill: #f4c7b3;
 }
 
-.santa-2 {
+.santa_2 {
   opacity: 0.2;
 }
 
@@ -710,26 +694,26 @@ strong {
   fill: #eab5a0;
 }
 
-.santa-4 {
+.santa_4 {
   fill: #f2f2f2;
   stroke: #e6e6e6;
   stroke-width: 1.8489;
   stroke-miterlimit: 10;
 }
 
-.santa-5 {
+.santa_5 {
   fill: none;
 }
 
-.santa-6 {
+.santa_6 {
   fill: #f2f2f2;
 }
 
-.santa-7 {
+.santa_7 {
   fill: #e6e6e6;
 }
 
-.santa-white {
+.santa_white {
   fill: #fff;
 }
 
@@ -737,7 +721,7 @@ strong {
   fill: #eab5a0;
 }
 
-.santa-11 {
+.santa_11 {
   fill: #5e5958;
 }
 
@@ -745,19 +729,19 @@ strong {
   fill: #f9f5f4;
 }
 
-.santa-13 {
+.santa_13 {
   fill: #d60b0b;
 }
 
-.santa-14 {
+.santa_14 {
   fill: #bc0202;
 }
 
-.santa-15 {
+.santa_15 {
   fill: #c6c6c6;
 }
 
-.santa-16 {
+.santa_16 {
   fill: none;
   stroke: #f2f2f2;
   stroke-width: 16.7815;
@@ -765,19 +749,19 @@ strong {
   stroke-miterlimit: 10;
 }
 
-.santa-17 {
+.santa_17 {
   fill: #c40808;
 }
 
-.santa-18 {
+.santa_18 {
   opacity: 0.15;
 }
 
-.santa-19 {
+.santa_19 {
   fill: #b50808;
 }
 
-.santa-20 {
+.santa_20 {
   fill: none;
   stroke: #f2f2f2;
   stroke-width: 17.3975;
