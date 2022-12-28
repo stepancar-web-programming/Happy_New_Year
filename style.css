@@ -551,13 +551,6 @@ strong {
   animation-delay: 2s;
 }
 
-.shizzle_animated {
-  visibility: visible !important;
-  animation-fill-mode: both;
-  animation-duration: 1s;
-  backface-visibility: visible !important;
-}
-
 .santa_climbing_chimney {
   animation-name: santa_climbing_chimney;
   animation-duration: 3s;
