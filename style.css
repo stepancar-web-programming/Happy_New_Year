@@ -286,7 +286,7 @@ strong {
 }
 
 #garland {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-image: url("http://imapo.ru/img/christmas.png");
