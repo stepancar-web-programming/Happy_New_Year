@@ -520,15 +520,6 @@ strong {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
-.shizzle-animated {
-    visibility: visible !important;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
-}
 .Santa_Climbing_Chimney {
     -webkit-animation-name: Santa_Climbing_Chimney;
     animation-name: Santa_Climbing_Chimney;
