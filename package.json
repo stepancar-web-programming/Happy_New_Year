@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "stylelint": "^14.16.0",
+    "stylelint-config-standard": "^29.0.0"
+  },
+  "dependencies": {
+    "stylefmt": "^6.0.3"
+  }
+}
